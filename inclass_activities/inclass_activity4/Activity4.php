@@ -1,3 +1,4 @@
+<!-- Sumeyye Nur Nehir 18050111058 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,30 +15,27 @@
     <form action="Activity4-preview.php" method="post">
     	<div class="row">
     		
-	    	<label class="main-label" for="name">Name:</label>
+	    	<label class="main-label">Name:</label>
 	    	<input type="text" name="name">
     	</div>
     	
     	<div class="row">
-    		<label class="main-label" for="username">Username:</label>
+    		<label class="main-label">Username:</label>
     		<input type="text" name="username">
     	</div>
-
 		
     	<div class="row">
-    		<label class="main-label" for="password">Password:</label>
+    		<label class="main-label">Password:</label>
     		<input type="password" name="password">
     	</div>
-
     	
     	<div class="row">
-    		<label class="main-label" for="address">Address:</label>
+    		<label class="main-label">Address:</label>
     		<input type="text" name="address">
     	</div>
 
-    
     	<div class="row">
-    		<label class="main-label" for="country">Country:</label>
+    		<label class="main-label">Country:</label>
 	    	<select name="country">
 	    		<option value="" >(Please select a country)</option>
 	    		<option value="Turkey" >Turkey</option>
@@ -46,12 +44,12 @@
     	</div>
     	
     	<div class="row">
-    		<label class="main-label" for="zipcode">Zipcode:</label>
+    		<label class="main-label">Zipcode:</label>
     		<input type="text" name="zipcode">
     	</div>
 
     	<div class="row">
-    		<label class="main-label" for="mail">Email:</label>
+    		<label class="main-label">Email:</label>
     		<input type="email" name="mail">
     	</div>
 
@@ -59,10 +57,10 @@
     		<label class="main-label">Sex:</label>
 
 	    	<input type="radio" name="male">
-	    	<label for="male">Male</label>
+	    	<label>Male</label>
 
 	    	<input  type="radio" name="female">
-	    	<label for="female">Female</label>
+	    	<label>Female</label>
     	</div>
 
     	<div class="row">
@@ -79,10 +77,9 @@
 	    	<input type="checkbox" name="language[]" value="Germany
 	    	">
     	</div>
-
     	
     	<div class="row">
-    		<label class="main-label" for="about">About: </label>
+    		<label class="main-label">About: </label>
     		<textarea name="about"></textarea>
     	</div>
     	
@@ -95,5 +92,3 @@
 </body>
 
 </html>
-
-
