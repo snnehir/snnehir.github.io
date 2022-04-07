@@ -42,11 +42,17 @@ function addScore(){
 }
 
 function displayScores(){
-	document.getElementById("scores_table").innerHTML = "<h2>Scores</h2> <tr> <th> Name </th> <th> Score </th> </tr>"
+	table = $("scores_table")
+	title = document.createElement("h2")
+	title.innerHTML = "Scores"
+	
+	table.parentNode.insertBefore(title, table)
+
+	table.innerHTML = "<tr> <th> Name </th> <th> Score </th> </tr>"
 
 	for(var i=0;i<scores.length;i++)
 	{
-		document.getElementById("scores_table").innerHTML +=" <tr> <td> " + names[i] + " </td> <td> " + scores[i] + " </td> </tr>" 
+		table.innerHTML +=" <tr> <td> " + names[i] + " </td> <td> " + scores[i] + " </td> </tr>" 
 	}
 	
 }
