@@ -20,7 +20,6 @@ function displayResults()
 		average = (average*(i)+scores[i])/(i+1);
 
 	}
-	//console.log("Result: ", average)
 	document.getElementById("results").innerHTML="<h2> Results </h2><p> Average score is "+average + "</p> " + "<p> Highest score is " + Math.max(...scores) + " </p>" 
 }
 
@@ -47,7 +46,7 @@ function displayScores(){
 
 	for(var i=0;i<scores.length;i++)
 	{
-		document.getElementById("scores_table").innerHTML +=" <tr> <td> " + names[i] + " </td> <td> " + scores[i] + " </td> <tr>" 
+		document.getElementById("scores_table").innerHTML +=" <tr> <td> " + names[i] + " </td> <td> " + scores[i] + " </td> </tr>" 
 	}
 	
 }
