@@ -2,7 +2,7 @@ var names = ["Ben", "Joel", "Judy", "Anne"];
 var scores = [88, 98, 77, 88];
 
 var $ = function (id) { return document.getElementById(id); };
-
+var is_first_click = true
 
 
 window.onload = function () {
@@ -43,11 +43,15 @@ function addScore(){
 
 function displayScores(){
 	table = $("scores_table")
-	title = document.createElement("h2")
-	title.innerHTML = "Scores"
-	
-	table.parentNode.insertBefore(title, table)
 
+	// insert <h2> tag before <table> (new element is created for each click that's why I used is_first_click lag)
+	if(is_first_click){
+		title = document.createElement("h2")
+		title.innerHTML = "Scores"
+		table.parentNode.insertBefore(title, table)
+		is_first_click = false // do not create this element again
+	}
+	
 	table.innerHTML = "<tr> <th> Name </th> <th> Score </th> </tr>"
 
 	for(var i=0;i<scores.length;i++)
