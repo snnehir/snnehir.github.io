@@ -32,15 +32,15 @@ function addScore(){
 		scores.push(parseInt($("score").value))
 		console.log("Scores: ", scores)
 		console.log("Name: ", names)
-		// clear input fields
-		$("name").value = ""
-		$("score").value = ""
-		// cursor
-		$("name").focus();
 	}
 	else{
 		alert("You must enter a name and a valid score")
 	}
+	// clear input fields
+	$("name").value = ""
+	$("score").value = ""
+	// cursor
+	$("name").focus();
 	
 }
 
