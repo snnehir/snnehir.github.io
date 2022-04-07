@@ -30,8 +30,6 @@ function addScore(){
 	if(validateScore(score) && name !== ""){
 		names.push($("name").value) 
 		scores.push(parseInt($("score").value))
-		console.log("Scores: ", scores)
-		console.log("Name: ", names)
 	}
 	else{
 		alert("You must enter a name and a valid score")
