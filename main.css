@@ -1,0 +1,17 @@
+li{
+    list-style: none;
+}
+.logo{
+    width: calc(10% + 20px);
+}
+.custom-container{
+    width: 340px;
+}
+.btn-custom{
+    margin-bottom: 10px;
+    color: #222222;
+    background-color: #d3b4ff;
+}
+.btn-custom:hover{
+    background-color: #ffe590;
+}
