@@ -1,0 +1,80 @@
+body {
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  color: #efefef;
+  background-color: #2a2a2a;
+}
+
+body h2 {
+  color: #fff;
+}
+
+body a {
+  color: #d3b4ff;
+}
+
+body a:hover {
+  color: #d3b4ff;
+}
+
+body .btn-custom {
+  color: #2a2a2a;
+  background-color: #ffe590;
+}
+
+body .btn-custom:hover {
+  background-color: #d3b4ff;
+}
+
+body[theme='light'] {
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  color: #2a2a2a;
+  background-color: #efefef;
+}
+
+body[theme='light'] h2 {
+  color: #000000;
+}
+
+body[theme='light'] a {
+  color: tomato;
+}
+
+body[theme='light'] a:hover {
+  color: #2a2a2a;
+}
+
+body[theme='light'] .btn-custom {
+  color: #efefef;
+  background-color: #ffa14f;
+}
+
+body[theme='light'] .btn-custom:hover {
+  color: #efefef;
+  background-color: tomato;
+}
+
+#theme_btn {
+  text-decoration: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  width: calc(10% + 20px);
+}
+
+.custom-container {
+  width: calc(20% + 260px);
+}
+
+.smaller-logo {
+  width: calc(10% + 5px);
+}
+/*# sourceMappingURL=main.css.map */
