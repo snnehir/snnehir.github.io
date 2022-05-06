@@ -1,15 +1,18 @@
 @import "colors.scss";
 
-body{
+body {
     transition: 1s ease;
     color: $text-light;
     background-color: $dark-bg;
+
     h2 {
         color: $title-light;
     }
+
     a {
         color: $link-color_dark;
     }
+
     a:hover {
         color: $link-color_dark;
     }
@@ -18,35 +21,55 @@ body{
         color: $dark-bg;
         background-color: #ffe590;
     }
-    
+
     .btn-custom:hover {
         background-color: $link-color_dark;
     }
+
+    h3 {
+        background: linear-gradient(90deg, #41414193, $dark_bg);
+        border-radius: 5px;
+        line-height: 28px;
+        padding: 15px 0px 15px 15px;
+    }
 }
-body[theme='light']{
+
+body[theme='light'] {
     transition: 1s ease;
     color: $text-dark;
     background-color: $light-bg;
+
     h2 {
         color: $title-dark;
     }
+
     a {
         color: $link-color_light;
     }
+
     a:hover {
         color: $text-dark;
     }
+
     .btn-custom {
         color: $light-bg;
         background-color: #ffa14f;
     }
+
     .btn-custom:hover {
         color: $light-bg;
         background-color: $link-color_light;
     }
+
+    h3 {
+        background: linear-gradient(90deg, #ffd6d6cb, $light-bg);
+        border-radius: 5px;
+        line-height: 28px;
+        padding: 15px 0px 15px 15px;
+    }
 }
 
-#theme_btn{
+#theme_btn {
     text-decoration: none;
     position: fixed;
     top: 10px;
@@ -54,12 +77,8 @@ body[theme='light']{
 }
 
 
-li {
-    list-style: none;
-}
-
 .logo {
-    width: calc(10% + 20px);
+    width: calc(4% + 20px);
 }
 
 .custom-container {
@@ -67,5 +86,23 @@ li {
 }
 
 .smaller-logo {
-    width: calc(10% + 5px);
+    width: calc(4% + 5px);
+}
+
+.totoro {
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+
+.img-custom{
+    width: calc(80% + 20px);
+}
+
+.italic {
+    font-style: italic;
+}
+.promise{
+    font-size: 12px;
+    color: #7bbba6;
 }

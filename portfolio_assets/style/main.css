@@ -26,6 +26,14 @@ body .btn-custom:hover {
   background-color: #d3b4ff;
 }
 
+body h3 {
+  background: -webkit-gradient(linear, left top, right top, from(#41414193), to(#2a2a2a));
+  background: linear-gradient(90deg, #41414193, #2a2a2a);
+  border-radius: 5px;
+  line-height: 28px;
+  padding: 15px 0px 15px 15px;
+}
+
 body[theme='light'] {
   -webkit-transition: 1s ease;
   transition: 1s ease;
@@ -55,6 +63,14 @@ body[theme='light'] .btn-custom:hover {
   background-color: tomato;
 }
 
+body[theme='light'] h3 {
+  background: -webkit-gradient(linear, left top, right top, from(#ffd6d6cb), to(#efefef));
+  background: linear-gradient(90deg, #ffd6d6cb, #efefef);
+  border-radius: 5px;
+  line-height: 28px;
+  padding: 15px 0px 15px 15px;
+}
+
 #theme_btn {
   text-decoration: none;
   position: fixed;
@@ -62,12 +78,8 @@ body[theme='light'] .btn-custom:hover {
   right: 10px;
 }
 
-li {
-  list-style: none;
-}
-
 .logo {
-  width: calc(10% + 20px);
+  width: calc(4% + 20px);
 }
 
 .custom-container {
@@ -75,6 +87,25 @@ li {
 }
 
 .smaller-logo {
-  width: calc(10% + 5px);
+  width: calc(4% + 5px);
+}
+
+.totoro {
+  display: block;
+  width: 150px;
+  margin: auto;
+}
+
+.img-custom {
+  width: calc(80% + 20px);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.promise {
+  font-size: 12px;
+  color: #7bbba6;
 }
 /*# sourceMappingURL=main.css.map */
