@@ -14,6 +14,7 @@ function change_theme(){
     else{
         document.body.setAttribute("theme", "dark")
         document.getElementById("theme_btn").innerHTML = '☀'
+        document.getElementById("theme_btn").setAttribute("title", "switch to day mode")
         flag = true
     }
     
